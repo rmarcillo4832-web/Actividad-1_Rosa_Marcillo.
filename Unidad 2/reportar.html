@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportar un rescate</title>
+</head>
+<body>
+<header>
+        <h1>Reportar un animal</h1>
+        <h2>Formulario de registro de rescate</h2>
+    </header>
+ <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="reportar.html">Reportar un rescate</a> |
+        <a href="rescates.html">Casos de rescate</a>
+    </nav>
+ <hr>
+<main>
+        <section>
+            <h2>Datos del animal</h2>
+ <article>
+     <h3>Formulario de reporte de rescate</h3>
+     
+                <form action="#" method="get">
+  <label for="nombre">Título o nombre provisional:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre"
+                    placeholder="Ingrese el nombre del caso" required>
+<br><br>
+<label for="categoria">Categoría del animal:</label>
+                    <br>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Seleccione una categoría</option>
+                        <option value="perros">Perros</option>
+                        <option value="gatos">Gatos</option>
+                        <option value="fauna silvestre">Fauna silvestre</option>
+                    </select>
+<br><br>
+ <p>Nivel de urgencia:</p>
+ <input type="radio" id="alta" name="urgencia"
+                    value="Alta" required>
+                    <label for="alta">Alta</label>
+<br>
+<input type="radio" id="media" name="urgencia"
+                    value="Media">
+                    <label for="media">Media</label>
+<br>
+  <input type="radio" id="baja" name="urgencia"
+                    value="Baja">
+                    <label for="baja">Baja</label>
+             <br><br>
+ <label for="descripcion">Descripción del caso:</label>
+                    <br>
+                    <textarea id="descripcion" name="descripcion"
+                    rows="5" cols="40"
+                    placeholder="Describa la situación del animal"
+                    required></textarea>
+<br><br>
+<input type="submit" value="Enviar reporte">
+                    <input type="reset" value="Limpiar formulario">
+</form>
+            </article>
+        </section>
+    </main>
+ <hr>
+<footer>
+        <p>Control de Rescate y Adopción - 2026</p>
+    </footer>
+</body>
+</html>
